@@ -3,7 +3,7 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { useForm } from "react-hook-form"
 import { toast } from 'react-toastify'
-import InputError from "@/ui_components/inputError"
+import InputError from "@/ui_components/InputError"
 import { useMutation, useQueryClient } from "@tanstack/react-query"
 import { useNavigate } from "react-router-dom"
 import { createBlog, updateBlog } from "@/services/apiBlog"
